@@ -11,7 +11,7 @@ module "eks" {
 
     tags = {
         environment = "development"
-        application = "myapp"
+        application = "myapp1"
     }
 
     eks_managed_node_groups = {
